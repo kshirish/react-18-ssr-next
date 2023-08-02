@@ -1,6 +1,6 @@
 import React from "react";
 
-const Nav = React.lazy(() => import("serverbhai/Nav"));
+const Nav = React.lazy(() => import("remote/Nav"));
 
 function App() {
   return (

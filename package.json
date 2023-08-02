@@ -5,9 +5,9 @@
     "./remote"
   ],
   "scripts": {
-    "clear": "cd host && rm -rf node_modules && rm -rf .next && cd ../remote && rm -rf node_modules && rm -rf dist",
-    "build": "yarn --cwd host build",
-    "start": "concurrently \"yarn --cwd remote start\"  \"yarn --cwd host start\""
+    "clear": "cd remote && rm -rf node_modules && rm -rf .next && cd ../host && rm -rf node_modules && rm -rf dist",
+    "build": "yarn --cwd remote build",
+    "start": "concurrently \"yarn --cwd host start\"  \"yarn --cwd remote start\""
   },
   "dependencies": {
     "concurrently": "7.0.0"

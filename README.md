@@ -1,6 +1,6 @@
-# ssr-react-18
+# react-18-ssr-next
 
-Sample app to setup nextjs ssr remote app with host react app
+Sample app to setup `nextjs` ssr **remote** app with **host** `react` app
 
 # Installation
 
